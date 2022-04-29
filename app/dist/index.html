@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header class="header">
+        <h1 class="header__title">Stopwatch</h1>
+    </header>
+
+    <main>
+
+        <section class="stopwatch">
+            <div class="clock container">
+                <div class="clock__buttons">
+                    <button class="clock__button" id="start">Start</button>
+                    <button class="clock__button" id="stop">Stop</button>
+                    <div class="button__restart"></div>
+                </div>
+
+                <div class="clock__timer">
+                    <p>
+                        <span id="minutes">00</span>:
+                        <span id="seconds">00</span>:
+                        <span id="miliseconds">00</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="lap container">
+                <div class="lap__buttons">
+                    <button class="clock__button" id="lap">Lap</button>
+                    <div class="clear__button"></div>
+                </div>
+                
+                <div class="lap__list remove__list"></div>
+                <div class="lap__list5 remove__list"></div>
+                <div class="lap__list10 remove__list"></div>
+                <div class="lap__list15 remove__list"></div>
+                <div class="lap__list20 remove__list"></div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer"></footer>
+
+    <script src="js/app.js" type="module"></script>
+
+</body>
+</html>

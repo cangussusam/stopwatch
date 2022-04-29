@@ -1,0 +1,84 @@
+body{
+    font-family: 'Arvo', serif;
+    background: #1B998B;
+}
+
+.header{
+    background: black;
+}
+
+.header__title{
+    font-size: 2rem;
+    color: #fdfdfd;
+    padding: 1.5rem;
+}
+
+.clock.container{
+    text-align: center;
+    margin: 1rem 0;
+
+}
+
+.clock__buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.clock__button{
+    background: #4ECDC4;
+    font-size: 1rem;
+    color: #000009;
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.clock__timer{
+    display: inline-block;
+    font-size: 5rem;
+    background-color: #4ECDC4;
+    padding: 1.15rem;
+    border-radius: 10px;
+    
+}
+
+.lap.container{
+    text-align: center;
+    margin: 2.5rem 0;
+}
+
+.lap__buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.lap__list.remove__list{
+    display: none;
+}
+
+.laps__title{
+    font-weight: 300;
+}
+
+.laps__value{
+    font-weight: 700;
+
+}
+
+.lap__list{
+    background: #fdfdfd;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.laps{
+    margin-bottom: 0.5rem;
+}
+
+.footer{
+    background: black;
+    height: 80px;
+    margin-top: 15%;
+}

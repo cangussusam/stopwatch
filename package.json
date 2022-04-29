@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "server": "lite-server --baseDir=app/dist",
+    "compile": "tsc",
+    "watch": "tsc -w",
+    "start": "concurrently \"npm run watch\" \"npm run server\""
+
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
